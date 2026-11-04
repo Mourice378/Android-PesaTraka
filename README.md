@@ -41,28 +41,18 @@ Architecture decisions are recorded in [docs/decisions](docs/decisions).
 
 The planned Flutter project structure:
 
-text
-Android-PesaTraka/
-│
-├── android/
-├── ios/
-├── lib/
-│   ├── main.dart
-│   ├── models/
-│   ├── screens/
-│   ├── widgets/
-│   ├── services/
-│   ├── providers/
-│   └── utils/
-│
-├── assets/
-│   ├── images/
-│   └── icons/
-│
-├── test/
-├── pubspec.yaml
-├── analysis_options.yaml
-└── README.md
+PesaTraka/
+├── DONE.md
+├── docs/decisions/        # ADRs
+├── packages/
+│   ├── domain/            # pure Dart: Money, ids, sealed states
+│   ├── data/              # Drift schema, migrations, dio client
+│   ├── sync/              # outbox, worker, conflict policy
+│   ├── fake_bank/         # shelf server with failure knobs
+│   └── app/               # Flutter app: UI + state only
+├── tool/                  # seed generator, ADR lint, chaos scripts
+├── infra/                 # docker-compose, dashboards
+└── .github/workflows/ci.yml
 
 ## ⚙️ Getting Started
 Prerequisites
