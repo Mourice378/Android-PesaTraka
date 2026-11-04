@@ -1,4 +1,4 @@
-PesaTraka 📱
+## PesaTraka 📱
 
 Smart Money Tracking. Simpler Financial Management.
 
@@ -6,13 +6,14 @@ PesaTraka is a Flutter-based mobile application designed to help users manage, t
 
 The goal of PesaTraka is to provide a simple, intuitive, and reliable platform for tracking personal finances, monitoring expenses, and gaining better control over money.
 
-🚀 Project Overview
+## 🚀 Project Overview
 
 PesaTraka aims to make personal financial management easier by bringing essential money-tracking tools into one mobile application.
 
+
 Built with Flutter, the application is designed to support Android devices, with the potential for expansion to other platforms.
 
-✨ Planned Features
+## ✨ Planned Features
 Transaction Tracking – Record and monitor income and expenses.
 Expense Management – Categorize and manage daily spending.
 Income Tracking – Keep track of different sources of income.
@@ -30,7 +31,13 @@ Android Studio / VS Code	Development environment
 
 Additional technologies, including backend services and database solutions, will be documented as the project evolves.
 
-📂 Project Structure
+## ✅ Definition of Done
+
+Every piece of work must meet the checks in [DONE.md](DONE.md). <br>
+Architecture decisions are recorded in [docs/decisions](docs/decisions).
+
+
+## 📂 Project Structure
 
 The planned Flutter project structure:
 
@@ -57,7 +64,7 @@ Android-PesaTraka/
 ├── analysis_options.yaml
 └── README.md
 
-⚙️ Getting Started
+## ⚙️ Getting Started
 Prerequisites
 
 Before running the project, ensure you have installed:
@@ -88,7 +95,7 @@ Run the application:
 bash
 flutter run
 
-🗺️ Development Roadmap
+## 🗺️ Development Roadmap
 Initialize Flutter project
 Design application UI and navigation
 Implement user authentication
@@ -100,11 +107,11 @@ Implement reports and analytics
 Add database and backend integration
 Perform testing and debugging
 Prepare Android release build
-🔐 Security
+## 🔐 Security
 
 Security and privacy are important aspects of PesaTraka. The application will prioritize protecting user information and financial records as development progresses.
 
-🤝 Contributions
+## 🤝 Contributions
 
 Contributions, suggestions, and feedback are welcome.
 
@@ -114,13 +121,13 @@ Fork the repository.
 Create a feature branch.
 Commit your changes.
 Submit a pull request.
-📌 Project Status
+## 📌 Project Status
 
 Currently in development.
 
 Features and functionality are subject to change as the project evolves.
 
-📄 License
+## 📄 License
 
 License to be determined.
 
